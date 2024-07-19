@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Scroll to Continue Watching",
+    "version": "1.0",
+    "description": "Scroll to Continue Watching",
+    "action": {
+        "default_icon": {
+            "32": "icon.png"
+        }
+    },
+    "background": {
+        "service_worker": "script.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ]
+}
