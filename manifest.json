@@ -13,6 +13,8 @@
     },
     "permissions": [
         "activeTab",
-        "scripting"
-    ]
+        "scripting",
+        "tabs"
+    ],
+    "host_permissions": ["<all_urls>"]
 }
